@@ -12,6 +12,7 @@
 
 .bg-pink {
     background-color: getColour(pink);
+    border: solid 3px getColour(white);
 }
 
 .bg-white {

@@ -73,6 +73,7 @@ h1 {
 
 .bg-pink {
   background-color: #c32c72;
+  border: solid 3px #fff;
 }
 
 .bg-white {
