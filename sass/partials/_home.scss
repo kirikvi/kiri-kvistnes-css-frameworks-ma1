@@ -1,0 +1,21 @@
+.row {
+    margin: auto;
+    justify-content: center;
+}
+
+.card {
+    background-color: getColour(light);
+    height: 13.5em;
+    width: 13.5rem;
+    margin: 10px;
+}
+
+.bg-pink {
+    background-color: getColour(pink);
+}
+
+.bg-white {
+    border: solid 3px getColour(pink);
+}
+
+

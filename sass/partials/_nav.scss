@@ -1,0 +1,17 @@
+.navbar {
+    background-color: getColour(light) !important;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-family: $font-secondary;
+}
+
+.navbar-brand {
+    font-size: 2.1rem;
+    margin-left: 2rem; 
+    color: getColour(dark);
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: getColour(pink);
+}

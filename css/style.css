@@ -1,2 +1,81 @@
-@import "_variables.css";
-@import "_nav.css";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+  margin: 20px 0 30px;
+}
+
+.navlink,
+footer p {
+  color: #8d8d8d;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: #f4f3ee !important;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+footer p {
+  margin: 15px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #f4f3ee !important;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.1rem;
+  margin-left: 2rem;
+  color: #6a6a6a;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #c32c72;
+}
+
+.row {
+  margin: auto;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f4f3ee;
+  height: 13.5em;
+  width: 13.5rem;
+  margin: 10px;
+}
+
+.bg-pink {
+  background-color: #c32c72;
+}
+
+.bg-white {
+  border: solid 3px #c32c72;
+}
+/*# sourceMappingURL=style.css.map */
