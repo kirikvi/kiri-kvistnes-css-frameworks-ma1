@@ -6,7 +6,6 @@ body {
 body {
   background-color: #e5e5e5;
   margin: 0;
-  font-family: "open sans", sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -34,6 +33,14 @@ footer p {
   margin: 15px;
 }
 
+body {
+  font-family: "open sans", sans-serif;
+}
+
+.nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
 h1 {
   font-size: 2em;
   text-align: center;
@@ -43,10 +50,6 @@ h1 {
 .navbar {
   background-color: #f4f3ee !important;
   text-transform: uppercase;
-}
-
-.nav-link {
-  font-family: "Archivo Narrow", sans-serif;
 }
 
 .navbar-brand {
